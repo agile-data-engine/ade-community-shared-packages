@@ -1,0 +1,179 @@
+{
+  "packageName" : "CONFIG_LOAD_TRANSFORMATIONS",
+  "packageVersion" : "${build_number}",
+  "templateVersion" : "1.2",
+  "dataPackage" : {
+    "packageId" : "f668e8a6-bb0e-4d2a-8231-5d19e8432228",
+    "packageName" : "CONFIG_LOAD_TRANSFORMATIONS",
+    "packageVersion" : "${build_number}",
+    "createdUser" : "SYSTEM",
+    "packageStatus" : "UNDER_CONSTRUCTION",
+    "createdTimestamp" : 1687330602806,
+    "modifiedTimestamp" : 1687330602806,
+    "modifiedUser" : "SYSTEM",
+    "statusChangedTimestamp" : 1687330602806,
+    "statusChangedUser" : "SYSTEM",
+    "deleted" : false,
+    "description" : "#System",
+    "packageType" : "CONFIG_PACKAGE"
+  },
+  "packageDependencies" : [ {
+    "packageId" : "6d7d342f-158b-4608-9835-6fa6ea4a9ec0",
+    "packageName" : "CONFIG_BASE",
+    "packageType" : "CONFIG_PACKAGE",
+    "dagLevel" : 1
+  } ],
+  "attrTransformationTypes" : [ {
+    "transformationType" : "CUSTOM",
+    "shortDescription" : "Custom SQL Expression",
+    "description" : "User defined transformation for the attribute in DBMS specific SQL Dialect. Can contain environment variables.",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 1
+  }, {
+    "transformationType" : "HASH",
+    "shortDescription" : "Data Vault HASH transformation",
+    "description" : "Data Vault HASH transformation.",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 2
+  }, {
+    "transformationType" : "CONCAT",
+    "shortDescription" : "Concatenation of the mapped attributes",
+    "description" : "Concatenation of the mapped attributes.",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 3
+  }, {
+    "transformationType" : "RUN_ID",
+    "shortDescription" : "Unique RUN_ID for each transaction",
+    "description" : "Unique RUN_ID for each transaction",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 4
+  }, {
+    "transformationType" : "CURRENT_TS",
+    "shortDescription" : "Current Timestamp",
+    "description" : "Current Timestamp",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 5
+  }, {
+    "transformationType" : "DV_STATUS",
+    "shortDescription" : "Status satellite activity indicator (1 or 0)",
+    "description" : "Status satellite activity indicator (1 or 0)",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 6
+  }, {
+    "transformationType" : "DV_BUSINESS_KEY",
+    "shortDescription" : "Data Vault Business Key transformation",
+    "description" : "Data Vault Business Key transformation",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 7
+  }, {
+    "transformationType" : "ST_ASTEXT",
+    "shortDescription" : "GEOGRAPHY/GEOMETRY to WKT format",
+    "description" : "GEOGRAPHY/GEOMETRY to WKT format",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 8
+  }, {
+    "transformationType" : "ST_ASBINARY",
+    "shortDescription" : "GEOGRAPHY/GEOMETRY to WKB format",
+    "description" : "GEOGRAPHY/GEOMETRY to WKB format",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 9
+  }, {
+    "transformationType" : "ST_GEOGFROMTEXT",
+    "shortDescription" : "WKT format to GEOGRAPHY",
+    "description" : "WKT formatted spatial information to GEOGRAPHY",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 10
+  }, {
+    "transformationType" : "ST_GEOGFROMWKB",
+    "shortDescription" : "WKB format to GEOGRAPHY",
+    "description" : "WKB formatted spatial information to GEOGRAPHY",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 11
+  }, {
+    "transformationType" : "ST_GEOGFROMTEXT_FLAT",
+    "shortDescription" : "WKT format to GEOMETRY",
+    "description" : "WKT format spatial information to GEOMETRY",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 12
+  }, {
+    "transformationType" : "ST_GEOGFROMWKB_FLAT",
+    "shortDescription" : "WKB format to GEOMETRY",
+    "description" : "WKB formatted spatial information to GEOMETRY",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 13
+  }, {
+    "transformationType" : "DV_RUNNING_ID",
+    "shortDescription" : "Data Vault DV_RUNNING_ID transformation",
+    "description" : "Data Vault DV_RUNNING_ID transformation.",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 14
+  }, {
+    "transformationType" : "HASH_LIST",
+    "shortDescription" : "Data Vault HASH list transformation",
+    "description" : "Data Vault HASH list transformation.",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 15
+  } , {
+    "transformationType" : "HEX_HASH_KEY",
+    "shortDescription" : "Data Warehouse Hexadecimal HASH",
+    "description" : "Data Warehouse Hexadecimal HASH key transformation",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 16
+  } , {
+    "transformationType" : "HASH_KEY",
+    "shortDescription" : "Data Warehouse MD5 HASH",
+    "description" : "Data Warehouse MD5 HASH transformation.",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 17
+  } , {
+    "transformationType" : "BUSINESS_KEY",
+    "shortDescription" : "Business key represented as Varchar",
+    "description" : "Business key represented as Varchar concatenation of source fields",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 18
+  } , {
+    "transformationType" : "LOAD_NAME",
+    "shortDescription" : "Print load name value",
+    "description" : "Print load name value from enviornment variable",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 19
+  } , {
+    "transformationType" : "CAST_INTEGER",
+    "shortDescription" : "Try converting a field to integer",
+    "description" : "Try converting a field to integer",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 20
+  } , {
+    "transformationType" : "CURRENT_TS_VARCHAR",
+    "shortDescription" : "Current Timestamp converted to string in unified format",
+    "description" : "Current Timestamp converted to string in unified format",
+    "isShownInDesigner" : true,
+    "ordinalPositionInDesigner" : 21
+  } ],
+  "dbmsTransformationFormulas" : [ {
+    "transformationType" : "HEX_HASH_KEY",
+    "dbmsProduct" : "REDSHIFT",
+    "transformationFormula" : "<@compress single_line=true>ENCODE(MD5(<#list sourceAttributes as attribute><#if attribute.datatype?? && attribute.datatype == \"DATE\">  NVL(TO_CHAR(${attribute.attributeName}, 'YYYYMMDD'), '-1') <#elseif attribute.datatype?? && (attribute.datatype?lower_case?contains(\"varchar\") || attribute.datatype?lower_case?contains(\"char\"))>  NVL(UPPER(TRIM(${attribute.attributeName})), '-1')<#elseif attribute.datatype?? && attribute.datatype == \"TIMESTAMP\">     NVL(TO_CHAR(${attribute.attributeName}, 'YYYYMMDDHH24MISSFF5'), '-1')<#elseif attribute.datatype?? && attribute.datatype == \"TIMESTAMP_TZ\">   NVL(TO_CHAR(${attribute.attributeName}, 'YYYYMMDDHH24MISSFF5TZHTZM'), '-1')<#elseif attribute.datatype?? && attribute.datatype == \"GEOGRAPHY\"> NVL(ST_AsText(${attribute.attributeName}), '-1') <#else>   NVL(UPPER(CAST(${attribute.attributeName} AS VARCHAR)), '-1')</#if> <#if attribute_has_next> || '~' ||</#if></#list>), 'hex')</@compress>"
+  }, {
+    "transformationType" : "HASH_KEY",
+    "dbmsProduct" : "REDSHIFT",
+    "transformationFormula" : "<@compress single_line=true>MD5(<#list sourceAttributes as attribute><#if attribute.datatype?? && attribute.datatype == \"DATE\">  NVL(TO_CHAR(${attribute.attributeName}, 'YYYYMMDD'), '-1') <#elseif attribute.datatype?? && (attribute.datatype?lower_case?contains(\"varchar\") || attribute.datatype?lower_case?contains(\"char\"))>  NVL(UPPER(TRIM(${attribute.attributeName})), '-1')<#elseif attribute.datatype?? && attribute.datatype == \"TIMESTAMP\">     NVL(TO_CHAR(${attribute.attributeName}, 'YYYYMMDDHH24MISSFF5'), '-1')<#elseif attribute.datatype?? && attribute.datatype == \"TIMESTAMP_TZ\">   NVL(TO_CHAR(${attribute.attributeName}, 'YYYYMMDDHH24MISSFF5TZHTZM'), '-1')<#elseif attribute.datatype?? && attribute.datatype == \"GEOGRAPHY\"> NVL(ST_AsText(${attribute.attributeName}), '-1') <#else>   NVL(UPPER(CAST(${attribute.attributeName} AS VARCHAR)), '-1')</#if> <#if attribute_has_next> || '~' ||</#if></#list>)</@compress>"
+  }, {
+    "transformationType" : "BUSINESS_KEY",
+    "dbmsProduct" : "REDSHIFT",
+    "transformationFormula" : "<@compress single_line=true><#list sourceAttributes as attribute><#if attribute.datatype?? && attribute.datatype == \"DATE\">  NVL(TO_CHAR(${attribute.attributeName}, 'YYYYMMDD'), '-1') <#elseif attribute.datatype?? && (attribute.datatype?lower_case?contains(\"varchar\") || attribute.datatype?lower_case?contains(\"char\"))>  NVL(UPPER(TRIM(${attribute.attributeName})), '-1')<#elseif attribute.datatype?? && attribute.datatype == \"TIMESTAMP\">     NVL(TO_CHAR(${attribute.attributeName}, 'YYYYMMDDHH24MISSFF5'), '-1')<#elseif attribute.datatype?? && attribute.datatype == \"TIMESTAMP_TZ\">   NVL(TO_CHAR(${attribute.attributeName}, 'YYYYMMDDHH24MISSFF5TZHTZM'), '-1')<#elseif attribute.datatype?? && attribute.datatype == \"GEOGRAPHY\"> NVL(ST_AsText(${attribute.attributeName}), '-1') <#else>   NVL(UPPER(CAST(${attribute.attributeName} AS VARCHAR)), '-1')</#if> <#if attribute_has_next> || '~' ||</#if></#list></@compress>"
+  }, {
+    "transformationType" : "LOAD_NAME",
+    "dbmsProduct" : "REDSHIFT",
+    "transformationFormula" : "'<@compress single_line=true><loadname></@compress>'"
+  }, {
+    "transformationType" : "CAST_INTEGER",
+    "dbmsProduct" : "REDSHIFT",
+    "transformationFormula" : "<@compress single_line=true>CAST(TRIM(${sourceAttributes[0].attributeName}) AS INTEGER)</@compress>"
+  }, {
+    "transformationType" : "CURRENT_TS_VARCHAR",
+    "dbmsProduct" : "REDSHIFT",
+    "transformationFormula" : "<@compress single_line=true>TO_CHAR(current_timestamp, 'YYYYMMDDHH24MISSMS')</@compress>"
+  } 
+  ]
+}
