@@ -32,21 +32,7 @@
     "isDeleted" : false,
     "isRecreateForced" : false,
     "isAutomaticallyManaged" : false
-  }, {
-    "entityId" : "b1d9f6b9-684a-4ce7-a63a-509361e011af",
-    "packageId" : "7368182d-f92b-47a6-86f1-bb9624b4f860",
-    "owner" : "publish",
-    "entityName" : "F_SALES_CLONE_B1D9F6B9_684A_4CE7_A63A_509361E011AF",
-    "entityLogicalName" : "SALES_CLONE_B1D9F6B9_684A_4CE7_A63A_509361E011AF",
-    "zone" : "INFORMATION_DELIVERY",
-    "entityType" : "FACT",
-    "physicalType" : "TABLE",
-    "modifiedTimestamp" : 1692944309480,
-    "modifiedUser" : "henri.hemminki@solita.fi",
-    "isDeleted" : true,
-    "isRecreateForced" : false,
-    "isAutomaticallyManaged" : false
-  } ],
+  }],
   "attributes" : [ {
     "attributeId" : "4354aa50-3136-4080-881f-ec4c6e335142",
     "entityId" : "a033d4e3-8d4c-4396-8109-1da36c1666ec",
@@ -162,61 +148,6 @@
     "charLength" : 0,
     "isNullable" : true,
     "isDeleted" : false
-  }, {
-    "attributeId" : "00c14a10-de6c-47fc-be23-b3944a56eb84",
-    "entityId" : "b1d9f6b9-684a-4ce7-a63a-509361e011af",
-    "attributeName" : "sales_id",
-    "position" : 1,
-    "datatype" : "INTEGER8",
-    "isPersistent" : true,
-    "isCharUsed" : false,
-    "charLength" : 0,
-    "isNullable" : true,
-    "isDeleted" : true
-  }, {
-    "attributeId" : "259ae31b-bb78-488d-8160-33a026f6d9e0",
-    "entityId" : "b1d9f6b9-684a-4ce7-a63a-509361e011af",
-    "attributeName" : "date",
-    "position" : 2,
-    "datatype" : "DATE",
-    "isPersistent" : true,
-    "isCharUsed" : false,
-    "charLength" : 0,
-    "isNullable" : true,
-    "isDeleted" : true
-  }, {
-    "attributeId" : "9d06772b-e3ca-4e43-866b-c80dcc30eddd",
-    "entityId" : "b1d9f6b9-684a-4ce7-a63a-509361e011af",
-    "attributeName" : "product_id",
-    "position" : 3,
-    "datatype" : "INTEGER8",
-    "isPersistent" : true,
-    "isCharUsed" : false,
-    "charLength" : 0,
-    "isNullable" : true,
-    "isDeleted" : true
-  }, {
-    "attributeId" : "ba560916-fff6-457b-b9af-2a7f1f8a00cf",
-    "entityId" : "b1d9f6b9-684a-4ce7-a63a-509361e011af",
-    "attributeName" : "quantity",
-    "position" : 4,
-    "datatype" : "INTEGER8",
-    "isPersistent" : true,
-    "isCharUsed" : false,
-    "charLength" : 0,
-    "isNullable" : true,
-    "isDeleted" : true
-  }, {
-    "attributeId" : "086c29df-156d-4e5e-9959-fc2e2be4acb6",
-    "entityId" : "b1d9f6b9-684a-4ce7-a63a-509361e011af",
-    "attributeName" : "price",
-    "position" : 5,
-    "datatype" : "DOUBLE",
-    "isPersistent" : true,
-    "isCharUsed" : false,
-    "charLength" : 0,
-    "isNullable" : true,
-    "isDeleted" : true
   } ],
   "referenceKeys" : [ ],
   "referenceKeyAttributes" : [ ],
@@ -276,12 +207,8 @@
   "entityLoadFiles" : [ ],
   "entityRelationships" : [ ],
   "grants" : [ ],
-  "entityPhysicalOpts" : [ {
-    "physicalOptId" : "e4630436-a932-4107-a092-cf6265fd4164",
-    "entityId" : "b1d9f6b9-684a-4ce7-a63a-509361e011af",
-    "value" : "true",
-    "physicalOptType" : "STORAGE.TRANSIENT_TABLE"
-  }, {
+  "entityPhysicalOpts" : [ 
+  {
     "physicalOptId" : "e60ff8f8-21fb-4426-9689-74a4408523c3",
     "entityId" : "a033d4e3-8d4c-4396-8109-1da36c1666ec",
     "value" : "true",

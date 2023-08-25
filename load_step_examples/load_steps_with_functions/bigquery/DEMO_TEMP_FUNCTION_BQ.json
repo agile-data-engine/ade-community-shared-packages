@@ -209,10 +209,5 @@
   "entityLoadFiles" : [ ],
   "entityRelationships" : [ ],
   "grants" : [ ],
-  "entityPhysicalOpts" : [ {
-    "physicalOptId" : "4c84efb0-7f61-4107-ab3f-7a626b59c6bc",
-    "entityId" : "df629fed-b5ad-4e89-90dc-f45dce203e94",
-    "value" : "true",
-    "physicalOptType" : "STORAGE.TRANSIENT_TABLE"
-  } ]
+  "entityPhysicalOpts" : [ ]
 }
